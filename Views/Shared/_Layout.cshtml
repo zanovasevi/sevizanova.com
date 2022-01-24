@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sevy Zanova</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type=“image/x-icon” href="~/favicon.ico" />
+</head>
+<body class="mainColor">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container">
+                <a id="homeBtn" class="navbar-brand text-white my-shrift" asp-controller="Home" asp-action="Index">Sevdalina &nbsp; Zanova</a>
+                <button id="navSmallBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white dotMenu">&#9679;&#9679;&#9679;</span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex ">
+                    <ul class="navbar-nav flex-grow-1 margin-left">
+                        <li class="nav-item ">
+                            <a class="text-pink my-shrift" asp-controller="Personal" asp-action="Personal">Personal Info</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="text-pink my-shrift" asp-controller="Courses" asp-action="Courses">Courses</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="text-pink my-shrift" asp-controller="Certificate" asp-action="Certificate">Certificates</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="text-pink my-shrift" asp-controller="GitHub" asp-action="GitHub">My GitHub</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="text-pink my-shrift" asp-controller="Contact" asp-action="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" >
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container text-white">
+            &copy; @DateTime.UtcNow.Year - Sevdalina Zanova
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿/* --- Courses --- */
+
+.links {
+    color: #ffff99;
+    font-size: 16px;
+}
+.links:hover {
+    color: #ff1493;
+}
+.column {
+    float: left;
+}
+.paddingTop {
+    padding-top: 10px;
+}
+.paddingBottom {
+    padding-bottom: 20px;
+}
+.left {
+    width: 30%;
+}
+.right {
+    width: 70%;
+}
+.width100 {
+    width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.btn {
+    border: 2px solid #ff1493;
+    color: white;
+}
+.btn:hover {
+    border: 2px solid white;
+    color: #ff1493;
+}

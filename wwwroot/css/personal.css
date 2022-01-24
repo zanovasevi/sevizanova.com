@@ -1,0 +1,13 @@
+﻿/* --- Personal --- */
+.firstCol {
+    width: 45%;
+}
+.btn {
+    border: 2px solid #ff1493;
+    color: white;
+    width: 50px;
+}
+.btn:hover {
+    border: 2px solid white;
+    color: #ff1493;
+}
