@@ -135,16 +135,6 @@ body {
         width: 25%;
         font-size: 14px;
     }
-
-/*    #homeBtn {
-        font-size: 20px;
-        display: inline-block;
-        width: 15%;
-        height: 40px;
-        position: relative;
-        top: 5%;
-        left: 0%;
-    }*/
 }
 
 @media screen and (min-width: 768px) {
@@ -159,18 +149,7 @@ body {
         ul li {
             width: 25%;
             font-size: large;
-        }
-/*    #homeBtn {
-        font-size: 15px;
-        display: inline-block;
-        width: 15%;
-        height: 40px;
-        position: relative;
-        top: 5%;
-        left: 0%;
-        border:1px solid red;
-    }*/
-   
+        }   
 }
 
 @media screen and (min-width: 800px) {
@@ -186,19 +165,7 @@ body {
             width: 25%;
             font-size: larger;
         }
-
-/*    #homeBtn {
-        font-size: 15px;
-        display: inline-block;
-        width: 20%;
-        height: 40px;
-        position: relative;
-        top: 5%;
-        left: -5%;
-    }*/
 }
-
-
 
 @media screen and (min-width: 992px) {
     ul {
@@ -236,7 +203,6 @@ body {
         left: 0%;
     }
 }
-
 
 
 @media screen and (max-width: 385px) {
