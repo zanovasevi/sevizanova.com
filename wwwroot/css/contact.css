@@ -5,3 +5,34 @@
 #address {
     margin-right: 140px;
 }
+
+@media screen and (max-width: 575px) {
+    #phone {
+        width: 100%;
+        font-size: 3.5vw;
+    }
+    #address {
+        width: 100%;
+        font-size: 3.5vw;
+    }
+    #email {
+        width: 100%;
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #phone {
+        font-size: 3.5vw;
+        width: 75%;
+    }
+    #address {
+        width: 74%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #phone {
+        width: 80%;
+    }
+}
