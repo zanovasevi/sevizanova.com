@@ -349,7 +349,6 @@
 /Users/macbookpro/Projects/My_Project/AboutMe/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/macbookpro/Projects/My_Project/AboutMe/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/macbookpro/Projects/My_Project/AboutMe/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
-/Users/macbookpro/Projects/My_Project/AboutMe/obj/Debug/net5.0/Razor/wwwroot/Index.cshtml.g.cs
 /Users/macbookpro/Projects/My_Project/AboutMe/obj/Debug/net5.0/AboutMe.RazorTargetAssemblyInfo.cache
 /Users/macbookpro/Projects/My_Project/AboutMe/obj/Debug/net5.0/AboutMe.RazorTargetAssemblyInfo.cs
 /Users/macbookpro/Projects/My_Project/AboutMe/obj/Debug/net5.0/AboutMe.Views.pdb

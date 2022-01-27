@@ -21,7 +21,7 @@ h1 {
     div p {
         position: relative;
         display: inline-block;
-        left: 30px;
+        left: 0px;
         width: 150%;
         font-size: 22px;
     }
