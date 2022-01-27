@@ -38,3 +38,9 @@
     border: 2px solid white;
     color: #ff1493;
 }
+
+@media screen and (max-width: 575px) {
+    div .row {
+        margin: 0;
+    }
+}
