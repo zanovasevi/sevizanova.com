@@ -23,4 +23,7 @@
     <Folder Include="Views\Personal\" />
     <Folder Include="Views\Certificate\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\pictures\me.png" />
+  </ItemGroup>
 </Project>
